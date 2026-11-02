@@ -125,7 +125,7 @@ function main() {
   if (!/^[0-9a-f]{40}$/u.test(commit)) throw new Error(`invalid commit: ${commit}`)
   for (const { dir } of PLUGINS) {
     const atCommit = git(['ls-tree', '--name-only', commit, dir])
-    if (atCommit !== `${dir}/`) throw new Error(`${dir} is not in commit ${commit}`)
+    if (atCommit !== dir && atCommit !== `${dir}/`) throw new Error(`${dir} is not in commit ${commit}`)
   }
 
   const index = buildIndex({ repo: args.repo, commit })

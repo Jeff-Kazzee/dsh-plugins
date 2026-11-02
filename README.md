@@ -23,6 +23,8 @@ https://raw.githubusercontent.com/Jeff-Kazzee/dsh-plugins/main/index.json
 
 4. Install **Browser Verification** or **Team Worktree**.
 
+![The Discover tab listing both plugins from this index](assets/discover.png)
+
 ## Install from Git directly
 
 ```sh
