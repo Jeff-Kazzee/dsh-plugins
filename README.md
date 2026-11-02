@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/Jeff-Kazzee/dsh-plugins/main/index.json
 
 ![The Discover tab listing both plugins from this index](assets/discover.png)
 
+[Watch the 30 second demo](assets/demo.mp4) (1080x1920, captions baked in, no audio).
+
 ## Install from Git directly
 
 ```sh
