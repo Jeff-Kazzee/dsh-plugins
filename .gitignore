@@ -7,6 +7,7 @@ browser-verify/server/node_modules/
 browser-verify/server/*.png
 browser-verify/server/loader.html
 browser-verify/server/package-lock.json
+browser-verify/.chrome-profile/
 
 # general
 node_modules/
