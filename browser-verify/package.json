@@ -1,0 +1,26 @@
+{
+  "name": "dsh-plugin-browser-verify",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Browser verification for DeepSeek Harness: the agent sees and drives the real Web GUI through a headless chrome-devtools MCP server, with a one-shot login handoff for the Desktop surface.",
+  "license": "MIT",
+  "author": "Jeff Kazzee",
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "browser", "mcp", "chrome-devtools", "agent-tools", "ui-verification"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Kazzee/dsh-plugins.git",
+    "directory": "browser-verify"
+  },
+  "homepage": "https://github.com/Jeff-Kazzee/dsh-plugins/tree/main/browser-verify",
+  "bugs": { "url": "https://github.com/Jeff-Kazzee/dsh-plugins/issues" },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "engines": { "dsh": ">=0.2.1-rc.5 <0.3.0" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

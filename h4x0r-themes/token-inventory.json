@@ -1,0 +1,2349 @@
+{
+  "tokens": [
+    {
+      "name": "--dsw-alias-bg-base",
+      "group": "surface",
+      "description": "Application base background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-950)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-document-preview",
+      "group": "surface",
+      "description": "Backdrop behind document previews.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-100)",
+        "dark": "var(--dsw-static-neutral-bluish-950)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-document-selection",
+      "group": "surface",
+      "description": "Document selection highlight, blue-500 at 40% opacity in both schemes.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-blue-500) 40%, transparent)",
+        "dark": "color-mix(in srgb, var(--dsw-static-blue-500) 40%, transparent)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-document-preview",
+      "group": "label",
+      "description": "Status text on the document preview backdrop.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-700)",
+        "dark": "var(--dsw-static-neutral-bluish-300)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-layer-1",
+      "group": "surface",
+      "description": "Primary raised surface background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-875)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-layer-2",
+      "group": "surface",
+      "description": "Secondary nested surface background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-layer-3",
+      "group": "surface",
+      "description": "Tertiary nested surface background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-mask-1",
+      "group": "surface",
+      "description": "Strongest dim mask behind modals.",
+      "default": {
+        "light": "#0000003d",
+        "dark": "#00000080"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-mask-2",
+      "group": "surface",
+      "description": "Softer dim mask.",
+      "default": {
+        "light": "#0000001f",
+        "dark": "#0003"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-mask-3",
+      "group": "surface",
+      "description": "Medium dim mask.",
+      "default": {
+        "light": "#0000007a",
+        "dark": "#0000007a"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-mask-photo",
+      "group": "surface",
+      "description": "Mask behind photo and lightbox viewers.",
+      "default": {
+        "light": "#000000e0",
+        "dark": "#000000e0"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-mask-drop",
+      "group": "surface",
+      "description": "Drop-target mask over the page.",
+      "default": {
+        "light": "#ffffffb3",
+        "dark": "#272730b3"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-module-platform",
+      "group": "surface",
+      "description": "Settings platform module and control seat background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-60)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-multi-select",
+      "group": "surface",
+      "description": "Multi-select option background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-60)",
+        "dark": "var(--dsw-static-neutral-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-overlay",
+      "group": "surface",
+      "description": "Overlay and popover background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-150)",
+        "dark": "var(--dsw-static-neutral-bluish-700)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-bg-skeleton",
+      "group": "surface",
+      "description": "Skeleton loading fill.",
+      "default": {
+        "light": "#0000000a",
+        "dark": "#ffffff14"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-inverted2",
+      "group": "border",
+      "description": "Inverted border, second step. Transparent in the light sheet.",
+      "default": {
+        "light": "#0000",
+        "dark": "#ffffff14"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-inverted",
+      "group": "border",
+      "description": "Border on inverted surfaces. Transparent in the light sheet.",
+      "default": {
+        "light": "#0000",
+        "dark": "#ffffff0f"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-l1",
+      "group": "border",
+      "description": "Primary subtle border.",
+      "default": {
+        "light": "#0000000a",
+        "dark": "#ffffff0f"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-l2-darkmode-thin",
+      "group": "border",
+      "description": "Thin dark-mode variant of border-l2.",
+      "default": {
+        "light": "#0000001a",
+        "dark": "#ffffff0f"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-l2",
+      "group": "border",
+      "description": "Secondary stronger border.",
+      "default": {
+        "light": "#0000001a",
+        "dark": "#ffffff1f"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-l3",
+      "group": "border",
+      "description": "Tertiary border on elevated surfaces.",
+      "default": {
+        "light": "#0000001f",
+        "dark": "#ffffff29"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-border-l4",
+      "group": "border",
+      "description": "Quaternary border for control outlines.",
+      "default": {
+        "light": "#00000029",
+        "dark": "#fff3"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-brand-primary-invert",
+      "group": "accent",
+      "description": "Brand foreground inverted for dark brand fills.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-1000)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-brand-primary-new-colorprimary-new-color",
+      "group": "accent",
+      "description": "Blue product accent used by the desktop update indicator.",
+      "default": {
+        "light": "#4176e6",
+        "dark": "var(--dsw-static-deepseek-450)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-brand-primary",
+      "group": "accent",
+      "description": "Primary brand accent.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-1000)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-brand-text",
+      "group": "accent",
+      "description": "Brand wordmark text.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-1000)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-contrast-fill",
+      "group": "surface",
+      "description": "Contrast button fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-700)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-elevated-fill",
+      "group": "surface",
+      "description": "Elevated button fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-floating-fill",
+      "group": "surface",
+      "description": "Floating button fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-floating-hover",
+      "group": "surface",
+      "description": "Floating button hover fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-75)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-ghost-active-border",
+      "group": "border",
+      "description": "Active ghost button border.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-500)",
+        "dark": "var(--dsw-static-neutral-bluish-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-ghost-active-fill",
+      "group": "surface",
+      "description": "Active ghost button fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-100)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-ghost-active-hover",
+      "group": "surface",
+      "description": "Active ghost button hover fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-150)",
+        "dark": "var(--dsw-static-neutral-bluish-700)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-info-fill",
+      "group": "surface",
+      "description": "Info button fill.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-500)",
+        "dark": "var(--dsw-static-deepseek-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-info-hover",
+      "group": "surface",
+      "description": "Info button hover fill.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-400)",
+        "dark": "var(--dsw-static-deepseek-500)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-primary-dimmed",
+      "group": "surface",
+      "description": "Dimmed primary button fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-100)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-primary-fill",
+      "group": "surface",
+      "description": "Primary button fill.",
+      "default": {
+        "light": "var(--dsw-alias-brand-primary)",
+        "dark": "var(--dsw-alias-brand-primary)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-primary-hover",
+      "group": "surface",
+      "description": "Primary button hover fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-750)",
+        "dark": "var(--dsw-static-neutral-bluish-100)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-tool-bar-fill-invisible",
+      "group": "surface",
+      "description": "Invisible toolbar button fill.",
+      "default": {
+        "light": "#1f1f1f5c",
+        "dark": "#1f1f1f5c"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-tool-bar-fill",
+      "group": "surface",
+      "description": "Toolbar button fill.",
+      "default": {
+        "light": "#54555780",
+        "dark": "#54555780"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-button-tool-bar-hover",
+      "group": "surface",
+      "description": "Toolbar button hover fill.",
+      "default": {
+        "light": "#54555799",
+        "dark": "#54555799"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-interactive-bg-active",
+      "group": "surface",
+      "description": "Interactive pressed background.",
+      "default": {
+        "light": "#2631481a",
+        "dark": "#ffffff24"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-interactive-bg-hover-accent",
+      "group": "surface",
+      "description": "Accent interactive hover background.",
+      "default": {
+        "light": "#26314824",
+        "dark": "#ffffff3d"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-interactive-bg-hover-danger",
+      "group": "surface",
+      "description": "Danger interactive hover background.",
+      "default": {
+        "light": "#ec13130d",
+        "dark": "#f25a5a26"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-interactive-bg-hover-solid",
+      "group": "surface",
+      "description": "Opaque interactive hover background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-75)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-interactive-bg-hover",
+      "group": "surface",
+      "description": "Interactive hover background.",
+      "default": {
+        "light": "#2631480f",
+        "dark": "#ffffff14"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-caption",
+      "group": "label",
+      "description": "Caption and disabled text.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-400)",
+        "dark": "var(--dsw-static-neutral-bluish-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-deep-diving",
+      "group": "label",
+      "description": "Activity label for deep-diving mode.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-deepseek-500) 70%, var(--dsw-static-blue-950))",
+        "dark": "color-mix(in srgb, var(--dsw-static-deepseek-450) 55%, var(--dsw-static-neutral-bluish-400))"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-deep-diving-shimmer",
+      "group": "label",
+      "description": "Shimmer sweep for the deep-diving label.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-deepseek-500) 30%, var(--dsw-static-blue-950))",
+        "dark": "color-mix(in srgb, var(--dsw-static-blue-300) 65%, var(--dsw-static-deepseek-400))"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-dimmed",
+      "group": "label",
+      "description": "Dimmed decorative text.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-200)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-primary-bluish",
+      "group": "label",
+      "description": "Primary label in the bluish tone.",
+      "default": {
+        "light": "var(--dsw-static-blue-900)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-primary-dimmed",
+      "group": "label",
+      "description": "Dimmed primary label.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-950)",
+        "dark": "var(--dsw-static-neutral-bluish-100)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-primary-foreground",
+      "group": "label",
+      "description": "Primary label drawn on brand fills.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-1000)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-primary-inverted",
+      "group": "label",
+      "description": "Primary label on inverted surfaces.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-primary",
+      "group": "label",
+      "description": "Primary text color.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-1000)",
+        "dark": "var(--dsw-static-neutral-bluish-50)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-secondary",
+      "group": "label",
+      "description": "Secondary text color.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-700)",
+        "dark": "var(--dsw-static-neutral-bluish-300)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-shimmer",
+      "group": "label",
+      "description": "Overlay for the shared text shimmer.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-neutral-1000) 30%, transparent)",
+        "dark": "color-mix(in srgb, var(--dsw-static-neutral-00) 45%, transparent)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-label-tertiary",
+      "group": "label",
+      "description": "Tertiary text color.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-600)",
+        "dark": "var(--dsw-static-neutral-bluish-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-menu-icon",
+      "group": "menu",
+      "description": "Menu item icon color.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-800)",
+        "dark": "var(--dsw-alias-label-primary-dimmed)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-link",
+      "group": "accent",
+      "description": "Link text.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-500)",
+        "dark": "var(--dsw-static-deepseek-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-citation",
+      "group": "other",
+      "description": "Markdown citation chip background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-100)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-code-block-banner",
+      "group": "code",
+      "description": "Code block header banner.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-50)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-code-block",
+      "group": "code",
+      "description": "Markdown code block background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-50)",
+        "dark": "var(--dsw-static-neutral-bluish-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-code-segment-selected",
+      "group": "code",
+      "description": "Selected code segment background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-code-segment-unselected",
+      "group": "code",
+      "description": "Unselected code segment background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-75)",
+        "dark": "var(--dsw-static-neutral-bluish-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-inline-code",
+      "group": "code",
+      "description": "Inline code background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-50)",
+        "dark": "var(--dsw-static-neutral-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-placeholder",
+      "group": "other",
+      "description": "Markdown placeholder fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-60)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-markdown-tag",
+      "group": "other",
+      "description": "Markdown tag chip fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-75)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-scrollbar-bg-l1",
+      "group": "other",
+      "description": "Scrollbar thumb on l1 base surfaces.",
+      "default": {
+        "light": "var(--dsw-static-neutral-200)",
+        "dark": "var(--dsw-static-neutral-700)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-scrollbar-bg-l2",
+      "group": "other",
+      "description": "Scrollbar thumb on l2 elevated surfaces.",
+      "default": {
+        "light": "var(--dsw-static-neutral-200)",
+        "dark": "var(--dsw-static-neutral-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-scrollbar-hover-l1",
+      "group": "other",
+      "description": "Scrollbar thumb hover on l1 surfaces.",
+      "default": {
+        "light": "var(--dsw-static-neutral-300)",
+        "dark": "var(--dsw-static-neutral-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-scrollbar-hover-l2",
+      "group": "other",
+      "description": "Scrollbar thumb hover on l2 surfaces.",
+      "default": {
+        "light": "var(--dsw-static-neutral-300)",
+        "dark": "var(--dsw-static-neutral-550)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-business-primary",
+      "group": "accent",
+      "description": "Business accent state, also the focus ring fallback.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-500)",
+        "dark": "var(--dsw-static-deepseek-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-business-tertiary",
+      "group": "accent",
+      "description": "Subtle business accent state fill.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-100)",
+        "dark": "var(--dsw-static-deepseek-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-code-diff-added",
+      "group": "diff",
+      "description": "Inline code diff added fill.",
+      "default": {
+        "light": "var(--dsw-static-green-500-a08)",
+        "dark": "var(--dsw-static-green-500-a12)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-code-diff-deleted",
+      "group": "diff",
+      "description": "Inline code diff deleted fill.",
+      "default": {
+        "light": "var(--dsw-static-red-600-a08)",
+        "dark": "var(--dsw-static-red-400-a12)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-added-bg",
+      "group": "diff",
+      "description": "File diff added line background.",
+      "default": {
+        "light": "#e6f4e7",
+        "dark": "#1f3124"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-added-gutter",
+      "group": "diff",
+      "description": "File diff added gutter background.",
+      "default": {
+        "light": "#edf7ed",
+        "dark": "#132016"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-added-marker",
+      "group": "diff",
+      "description": "File diff added marker color.",
+      "default": {
+        "light": "#01a241",
+        "dark": "#41c977"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-deleted-bg",
+      "group": "diff",
+      "description": "File diff deleted line background.",
+      "default": {
+        "light": "#fce6e2",
+        "dark": "#3c1f1b"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-deleted-gutter",
+      "group": "diff",
+      "description": "File diff deleted gutter background.",
+      "default": {
+        "light": "#fdece9",
+        "dark": "#28130e"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-file-diff-deleted-marker",
+      "group": "diff",
+      "description": "File diff deleted marker color.",
+      "default": {
+        "light": "#ba2723",
+        "dark": "#fa423e"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-error-primary",
+      "group": "state",
+      "description": "Primary error state color.",
+      "default": {
+        "light": "var(--dsw-static-red-600)",
+        "dark": "var(--dsw-static-red-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-error-secondary",
+      "group": "state",
+      "description": "Secondary error state color.",
+      "default": {
+        "light": "var(--dsw-static-red-400)",
+        "dark": "var(--dsw-static-red-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-idle-primary",
+      "group": "state",
+      "description": "Primary inactive state color.",
+      "default": {
+        "light": "var(--dsw-static-neutral-300)",
+        "dark": "var(--dsw-static-neutral-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-success-primary",
+      "group": "state",
+      "description": "Primary success state color.",
+      "default": {
+        "light": "var(--dsw-static-green-500)",
+        "dark": "var(--dsw-static-green-500)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-success-secondary",
+      "group": "state",
+      "description": "Secondary success state color.",
+      "default": {
+        "light": "var(--dsw-static-green-400)",
+        "dark": "var(--dsw-static-green-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-success-tertiary",
+      "group": "state",
+      "description": "Subtle success state fill.",
+      "default": {
+        "light": "var(--dsw-static-green-100)",
+        "dark": "var(--dsw-static-green-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-warn-label",
+      "group": "state",
+      "description": "Warning label text.",
+      "default": {
+        "light": "var(--dsw-static-amber-600)",
+        "dark": "var(--dsw-static-amber-600)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-warn-primary",
+      "group": "state",
+      "description": "Primary warning state color.",
+      "default": {
+        "light": "var(--dsw-static-amber-500)",
+        "dark": "var(--dsw-static-amber-500)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-warn-secondary",
+      "group": "state",
+      "description": "Secondary warning state color.",
+      "default": {
+        "light": "var(--dsw-static-amber-400)",
+        "dark": "var(--dsw-static-amber-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-state-warn-tertiary",
+      "group": "state",
+      "description": "Subtle warning state fill.",
+      "default": {
+        "light": "var(--dsw-static-amber-100)",
+        "dark": "var(--dsw-static-amber-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-switch-thumb",
+      "group": "other",
+      "description": "Switch thumb fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-400)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-toast-bg",
+      "group": "surface",
+      "description": "System toast background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-800)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-toast-label",
+      "group": "label",
+      "description": "System toast text.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-00)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-tooltip-bg",
+      "group": "surface",
+      "description": "Tooltip background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-850)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-tooltip-key-bg",
+      "group": "surface",
+      "description": "Tooltip keycap background.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-alias-tooltip-bg), white 18%)",
+        "dark": "color-mix(in srgb, var(--dsw-alias-tooltip-bg), white 18%)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-turn-trigger-bg",
+      "group": "surface",
+      "description": "Turn-trigger notice resting background.",
+      "default": {
+        "light": "var(--dsw-alias-markdown-code-block)",
+        "dark": "var(--dsw-alias-interactive-bg-hover)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-turn-trigger-bg-hover",
+      "group": "surface",
+      "description": "Turn-trigger notice hover background.",
+      "default": {
+        "light": "var(--dsw-alias-interactive-bg-hover)",
+        "dark": "var(--dsw-alias-interactive-bg-active)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-bubble-highlight",
+      "group": "surface",
+      "description": "User bubble highlight fill.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-200)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-bubble",
+      "group": "surface",
+      "description": "User message bubble background.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-50)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-input-major",
+      "group": "surface",
+      "description": "Major input background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-login-input",
+      "group": "surface",
+      "description": "Login input background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-50)",
+        "dark": "var(--dsw-static-neutral-bluish-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-menu-surface-fill",
+      "group": "menu",
+      "description": "Shared menu surface fill, the blur material base.",
+      "default": {
+        "light": "#f8f9fa94",
+        "dark": "#43454a73"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-menu-group-header-fill",
+      "group": "menu",
+      "description": "Sticky menu group heading fill, 94% opaque.",
+      "default": {
+        "light": "#f8f9faf0",
+        "dark": "#303136f0"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-menu",
+      "group": "menu",
+      "description": "Shared menu and overlay fill. macOS overrides it with a nearly opaque fill.",
+      "default": {
+        "light": "var(--dsw-menu-surface-fill)",
+        "dark": "var(--dsw-menu-surface-fill)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-selector",
+      "group": "other",
+      "description": "Selector control background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-60)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-sidebar-fill",
+      "group": "sidebar",
+      "description": "Sidebar column and title row background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-50)",
+        "dark": "var(--dsw-static-neutral-bluish-900)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-sidebar-nav-item-active-accent",
+      "group": "sidebar",
+      "description": "Active sidebar nav item accent.",
+      "default": {
+        "light": "var(--dsw-static-deepseek-100)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-sidebar-nav-item-active",
+      "group": "sidebar",
+      "description": "Active sidebar nav item background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-100)",
+        "dark": "var(--dsw-static-neutral-bluish-750)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-sidebar-nav-item-hover",
+      "group": "sidebar",
+      "description": "Sidebar nav item hover background.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-75)",
+        "dark": "var(--dsw-static-neutral-bluish-850)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-specific-tip",
+      "group": "other",
+      "description": "Tip and hint panel fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-60)",
+        "dark": "var(--dsw-static-neutral-bluish-800)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1413 (design-platform.css alias block)"
+    },
+    {
+      "name": "--dsw-alias-settings-card-fill",
+      "group": "surface",
+      "description": "Settings card fill. Resolves through bg-layer-2.",
+      "default": {
+        "light": "var(--dsw-alias-bg-layer-2)",
+        "dark": "var(--dsw-alias-bg-layer-2)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1407 (base.css body rule)"
+    },
+    {
+      "name": "--dsw-alias-settings-card-stroke",
+      "group": "border",
+      "description": "Settings card stroke. Resolves through border-l4.",
+      "default": {
+        "light": "var(--dsw-alias-border-l4)",
+        "dark": "var(--dsw-alias-border-l4)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1407 (base.css body rule)"
+    },
+    {
+      "name": "--dsw-alias-onboarding-accent",
+      "group": "accent",
+      "description": "Onboarding accent color.",
+      "default": {
+        "light": "#3964fe",
+        "dark": "#3964fe"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1419 (onboarding.css body and body[data-ds-dark-theme] rules)"
+    },
+    {
+      "name": "--dsw-alias-onboarding-card-fill",
+      "group": "surface",
+      "description": "Onboarding card fill.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-neutral-bluish-00) 80%, transparent)",
+        "dark": "color-mix(in srgb, var(--dsw-static-neutral-bluish-850) 80%, transparent)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1419 (onboarding.css body and body[data-ds-dark-theme] rules)"
+    },
+    {
+      "name": "--dsw-alias-onboarding-secondary-fill",
+      "group": "surface",
+      "description": "Onboarding secondary action fill.",
+      "default": {
+        "light": "var(--dsw-static-neutral-bluish-00)",
+        "dark": "#48494c"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1419 (onboarding.css body and body[data-ds-dark-theme] rules)"
+    },
+    {
+      "name": "--dsw-alias-onboarding-checkbox-border",
+      "group": "border",
+      "description": "Onboarding checkbox border.",
+      "default": {
+        "light": "color-mix(in srgb, var(--dsw-static-neutral-bluish-1000) 20%, transparent)",
+        "dark": "var(--dsw-alias-border-l2)"
+      },
+      "requiresLightAndDark": true,
+      "evidence": "ui-theme/lib/client.js:1419 (onboarding.css body and body[data-ds-dark-theme] rules)"
+    }
+  ],
+  "groups": {
+    "surface": [
+      "--dsw-alias-bg-base",
+      "--dsw-alias-bg-document-preview",
+      "--dsw-alias-bg-document-selection",
+      "--dsw-alias-bg-layer-1",
+      "--dsw-alias-bg-layer-2",
+      "--dsw-alias-bg-layer-3",
+      "--dsw-alias-bg-mask-1",
+      "--dsw-alias-bg-mask-2",
+      "--dsw-alias-bg-mask-3",
+      "--dsw-alias-bg-mask-photo",
+      "--dsw-alias-bg-mask-drop",
+      "--dsw-alias-bg-module-platform",
+      "--dsw-alias-bg-multi-select",
+      "--dsw-alias-bg-overlay",
+      "--dsw-alias-bg-skeleton",
+      "--dsw-alias-button-contrast-fill",
+      "--dsw-alias-button-elevated-fill",
+      "--dsw-alias-button-floating-fill",
+      "--dsw-alias-button-floating-hover",
+      "--dsw-alias-button-ghost-active-fill",
+      "--dsw-alias-button-ghost-active-hover",
+      "--dsw-alias-button-info-fill",
+      "--dsw-alias-button-info-hover",
+      "--dsw-alias-button-primary-dimmed",
+      "--dsw-alias-button-primary-fill",
+      "--dsw-alias-button-primary-hover",
+      "--dsw-alias-button-tool-bar-fill-invisible",
+      "--dsw-alias-button-tool-bar-fill",
+      "--dsw-alias-button-tool-bar-hover",
+      "--dsw-alias-interactive-bg-active",
+      "--dsw-alias-interactive-bg-hover-accent",
+      "--dsw-alias-interactive-bg-hover-danger",
+      "--dsw-alias-interactive-bg-hover-solid",
+      "--dsw-alias-interactive-bg-hover",
+      "--dsw-alias-toast-bg",
+      "--dsw-alias-tooltip-bg",
+      "--dsw-alias-tooltip-key-bg",
+      "--dsw-alias-turn-trigger-bg",
+      "--dsw-alias-turn-trigger-bg-hover",
+      "--dsw-specific-bubble-highlight",
+      "--dsw-specific-bubble",
+      "--dsw-specific-input-major",
+      "--dsw-specific-login-input",
+      "--dsw-alias-settings-card-fill",
+      "--dsw-alias-onboarding-card-fill",
+      "--dsw-alias-onboarding-secondary-fill"
+    ],
+    "label": [
+      "--dsw-alias-label-document-preview",
+      "--dsw-alias-label-caption",
+      "--dsw-alias-label-deep-diving",
+      "--dsw-alias-label-deep-diving-shimmer",
+      "--dsw-alias-label-dimmed",
+      "--dsw-alias-label-primary-bluish",
+      "--dsw-alias-label-primary-dimmed",
+      "--dsw-alias-label-primary-foreground",
+      "--dsw-alias-label-primary-inverted",
+      "--dsw-alias-label-primary",
+      "--dsw-alias-label-secondary",
+      "--dsw-alias-label-shimmer",
+      "--dsw-alias-label-tertiary",
+      "--dsw-alias-toast-label"
+    ],
+    "border": [
+      "--dsw-alias-border-inverted2",
+      "--dsw-alias-border-inverted",
+      "--dsw-alias-border-l1",
+      "--dsw-alias-border-l2-darkmode-thin",
+      "--dsw-alias-border-l2",
+      "--dsw-alias-border-l3",
+      "--dsw-alias-border-l4",
+      "--dsw-alias-button-ghost-active-border",
+      "--dsw-alias-settings-card-stroke",
+      "--dsw-alias-onboarding-checkbox-border"
+    ],
+    "accent": [
+      "--dsw-alias-brand-primary-invert",
+      "--dsw-alias-brand-primary-new-colorprimary-new-color",
+      "--dsw-alias-brand-primary",
+      "--dsw-alias-brand-text",
+      "--dsw-alias-link",
+      "--dsw-alias-state-business-primary",
+      "--dsw-alias-state-business-tertiary",
+      "--dsw-alias-onboarding-accent"
+    ],
+    "menu": [
+      "--dsw-alias-menu-icon",
+      "--dsw-menu-surface-fill",
+      "--dsw-alias-menu-group-header-fill",
+      "--dsw-specific-menu"
+    ],
+    "other": [
+      "--dsw-alias-markdown-citation",
+      "--dsw-alias-markdown-placeholder",
+      "--dsw-alias-markdown-tag",
+      "--dsw-alias-scrollbar-bg-l1",
+      "--dsw-alias-scrollbar-bg-l2",
+      "--dsw-alias-scrollbar-hover-l1",
+      "--dsw-alias-scrollbar-hover-l2",
+      "--dsw-alias-switch-thumb",
+      "--dsw-specific-selector",
+      "--dsw-specific-tip"
+    ],
+    "code": [
+      "--dsw-alias-markdown-code-block-banner",
+      "--dsw-alias-markdown-code-block",
+      "--dsw-alias-markdown-code-segment-selected",
+      "--dsw-alias-markdown-code-segment-unselected",
+      "--dsw-alias-markdown-inline-code"
+    ],
+    "diff": [
+      "--dsw-alias-code-diff-added",
+      "--dsw-alias-code-diff-deleted",
+      "--dsw-alias-file-diff-added-bg",
+      "--dsw-alias-file-diff-added-gutter",
+      "--dsw-alias-file-diff-added-marker",
+      "--dsw-alias-file-diff-deleted-bg",
+      "--dsw-alias-file-diff-deleted-gutter",
+      "--dsw-alias-file-diff-deleted-marker"
+    ],
+    "state": [
+      "--dsw-alias-state-error-primary",
+      "--dsw-alias-state-error-secondary",
+      "--dsw-alias-state-idle-primary",
+      "--dsw-alias-state-success-primary",
+      "--dsw-alias-state-success-secondary",
+      "--dsw-alias-state-success-tertiary",
+      "--dsw-alias-state-warn-label",
+      "--dsw-alias-state-warn-primary",
+      "--dsw-alias-state-warn-secondary",
+      "--dsw-alias-state-warn-tertiary"
+    ],
+    "sidebar": [
+      "--dsw-specific-sidebar-fill",
+      "--dsw-specific-sidebar-nav-item-active-accent",
+      "--dsw-specific-sidebar-nav-item-active",
+      "--dsw-specific-sidebar-nav-item-hover"
+    ]
+  },
+  "mechanics": {
+    "registerExample": "// ThemeRuntime.register(definition) -> disposer\n// definition shape (types client/index.d.ts): { id: string, colorScheme: 'light' | 'dark', tokens: Record<string, string> }\nctx.effect(() => ctx.theme.register({\n  id: \"h4x0r-neon\",\n  colorScheme: \"dark\",\n  tokens: {\n    \"--dsw-alias-bg-base\": \"var(--dsw-static-neutral-bluish-950)\",\n    \"--dsw-alias-label-primary\": \"var(--dsw-static-neutral-bluish-50)\"\n  }\n}), \"h4x0r: theme registration\")\n// token-level analogue (pairs, required for every token):\nctx.effect(() => ctx.theme.overrideTokens(\"h4x0r-neon\", {\n  \"--dsw-alias-bg-base\": { light: \"#f5f6f7\", dark: \"#0f1115\" }\n}), \"h4x0r: token layer\")",
+    "applyPath": "Themes never touch the DOM. ui-layout owns one ThemePresenter per plugin fiber and subscribes to theme/change. On every snapshot the presenter writes, in order, (1) document.documentElement.style.colorScheme = snapshot.active.colorScheme, (2) document.documentElement[data-ds-theme-source] = preference==='system' ? 'system' : colorScheme, (3) document.body[data-ds-dark-theme] set (empty value) when colorScheme==='dark' and removed otherwise, (4) font size and font family variables on document.body.style, (5) every token of snapshot.active.tokens as an inline CSS custom property on document.body.style.setProperty(name, value). Previously written token names are removed first, so each apply is a full replace. Light versus dark is therefore chosen twice: the resolved colorScheme picks which sheet block (body versus body[data-ds-dark-theme]) is live, and override-layer pairs were already flattened to that same colorScheme upstream. Registered themes do not have pairs, their tokens are plain strings for their declared colorScheme. Inline body variables win over the sheet defaults, so a theme only needs to supply the tokens it changes.",
+    "setThemeBehavior": "setTheme(id) is the only preference write entry. It throws unless id === 'system' or id is a registered theme id. It is a no-op when the preference already equals id. Otherwise it sets preference, writes the Host settings document only when isThemePreference(id) is true (that is only 'light', 'dark', 'system'), then publishes theme/change. A third-party theme id is applied in process only and is never written to the durable settings document. On reload ThemeRuntime starts with DEFAULT_PREFERENCE 'system' and then adopts the durable section from Host settings, which the Host boot injection has already resolved for first paint. So a third-party selection is lost on reload and the app returns to the durable built-in light/dark/system palette. If the plugin disposes the theme that backs the active preference, the preference resets to the default 'system'. The current profile patch pins ui-theme preference to dark, so that is the palette after reload unless the user changes it.",
+    "preferenceInteraction": "The built-in Appearance row selection follows the persisted preference, never the resolved active theme. Its store is synced from snapshot.preference on theme/change and on first mount. When a third-party theme id is active, preference is that id, so none of the light/dark/system cubes match and all three render unselected (aria-pressed false). Clicking a cube calls setTheme('light'|'dark'|'system'), which persists that built-in preference and replaces the third-party theme. The row never writes a third-party id. A custom picker row can read the same preference value to show its own selected card, but it cannot read the previously persisted built-in preference while a third-party id is active.",
+    "evidence": {
+      "registerExample": [
+        "ui-theme/lib/client.js:1807-1818 (register)",
+        "types client/index.d.ts ThemeDefinition",
+        "ui-theme/lib/client.js:1835-1847 (overrideTokens)",
+        "ui-theme/lib/client.js:1931-1943 (pair validation)"
+      ],
+      "applyPath": [
+        "ui-layout/lib/client.js:503-585 (ThemePresenter.apply/dispose)",
+        "ui-layout/lib/client.js:700-710 (presenter wiring)",
+        "ui-theme/lib/client.js:1848-1861 (buildSnapshot resolves system and picks the active theme)",
+        "ui-theme/lib/client.js:1862-1876 (composeActive flattens override pairs to active colorScheme)"
+      ],
+      "setThemeBehavior": [
+        "ui-theme/lib/client.js:1712-1718 (setTheme)",
+        "ui-theme/lib/client.js:1128-1130 (isThemePreference)",
+        "ui-theme/lib/client.js:1665-1684 (constructor, media listener, adopt)",
+        "ui-theme/lib/client.js:1787-1798 (adopt durable section)",
+        "ui-theme/lib/client.js:1812-1817 (disposer resets preference)",
+        "ui-theme/lib/index.js:145-183 (boot body script sets data-ds-dark-theme)",
+        "ui-theme/lib/index.js:204-214 (index injection)"
+      ],
+      "preferenceInteraction": [
+        "ui-theme/lib/client.js:70-95 (AppearanceRow renders from store preference)",
+        "ui-theme/lib/client.js:1369-1381 (row store sync)",
+        "ui-theme/lib/client.js:2034-2045 (sync wiring and injected setTheme)",
+        "ui-theme/lib/client.js:2046-2053 (row registration into settings.general.item)"
+      ]
+    },
+    "notes": [
+      "Method note: the installed ui-theme/lib/client.js keeps design-platform.css as one 19081-character line (line 1413). The Host read tool truncates any line at 2000 characters, so the installed line cannot be read in full. The first ~1250 characters that are readable (all static palette steps through bluish-500) match the same package version published to npm, and the other seven installed sheets were read in full and match the published sheets token for token. Token values below therefore come from the published 0.2.1-rc.3 sheet, verified against the installed bundle prefix. That file is the sheet the installed runtime loads.",
+      "The live client inspect providers timed out during this research (Theme.listTokens and Service.listService client queries returned no response), so the live registry was not available as a cross-check. The built-in BUILTIN_INSPECT_TOKENS list in ui-theme/lib/client.js:1531-1630 names 14 of these tokens and all 14 are present in the inventory.",
+      "Palette block boundaries: design-platform.css has exactly 6 rules. rule 0 body defines 77 --dsw-static-* steps, rule 1 body[data-ds-dark-theme] redefines the same 77 (only --dsw-static-neutral-bluish-60 differs, #f5f6f7 light versus #f9fafb dark), rule 2 body defines 113 palette tokens and rule 3 body[data-ds-dark-theme] defines the same 113 keys, rule 4 and rule 5 are the two html[data-platform=darwin] overrides of --dsw-specific-menu. No other sheet declares --dsw-alias-* tokens.",
+      "Token count: 119 override-eligible tokens = 113 from the design-platform alias block (101 --dsw-alias-*, 11 --dsw-specific-*, 1 --dsw-menu-surface-fill) plus 2 from base.css (--dsw-alias-settings-card-fill, --dsw-alias-settings-card-stroke) plus 4 from onboarding.css (--dsw-alias-onboarding-*). Each of the 113 has a light and a dark declaration.",
+      "16 of the 113 design-platform tokens carry the same value in both schemes, for example --dsw-alias-bg-document-selection, --dsw-alias-button-tool-bar-fill, --dsw-alias-state-success-primary. They still need both entries because overrideTokens rejects a bare string.",
+      "requiresLightAndDark is true for every entry because ThemeRuntime.overrideTokens requires a { light, dark } pair for each token it receives, even when the two values are identical.",
+      "default values are the literal sheet values. Most are var(--dsw-static-*) or var(--dsw-alias-*) references and some are color-mix() expressions. Inline body variables containing these expressions resolve correctly because the static palette and the other alias tokens are declared on body by the same sheet. The supplementary staticPaletteReference and resolvedDefaults sections give literal colors where the chain resolves to a single value.",
+      "macOS overrides: html[data-platform=darwin] body sets --dsw-specific-menu to #f8f9faf0 and html[data-platform=darwin] body[data-ds-dark-theme] sets it to #303136f0. The inventory records the non-darwin values #f8f9fa94 (light) and #43454a73 (dark). On macOS the platform rule wins over body[data-ds-dark-theme] because it is more specific.",
+      "Excluded on purpose: the --dsw-static-* palette steps (not override targets, they are the raw palette), radii, spacing, fonts, shadows, elevation, gradients, --dsh-* bindings (for example --dsh-scrollbar-thumb), the --shiki-* syntax colors (owned by shiki.css and read through shiki CSS variables, not --dsw aliases), and --dsw-focus-ring-color/width.",
+      "The token --dsw-alias-brand-primary-new-colorprimary-new-color is a real sheet token with that exact name. ui-settings-general client.js:94 consumes it for the desktop update indicator, so do not drop it as a typo.",
+      "Six palettes and two color schemes: register() gives each theme a single colorScheme and the presenter writes its token strings as-is, so a registered theme is either always light or always dark. A palette that must work in both schemes either registers per-scheme variants or uses ctx.theme.overrideTokens with light/dark pairs on top of the built-in light/dark themes.",
+      "Persistence: a third-party id cannot be stored through ctx.theme. To survive reload a picker implementation has to keep its own durable value (its own Host settings scope or another host-backed store) and call setTheme again after the service adopts the durable built-in preference.",
+      "HMR and registration: register() throws on a duplicate id and on the id 'system'. Wrap registration in ctx.effect so the disposer removes the themes before the plugin re-applies.",
+      "The two base.css aliases are declared once on body with a scheme-agnostic var() expression, so their literal light and dark entries are identical by design. resolvedDefaults shows the per-scheme result for them.",
+      "A picker row does not have to hardcode its cards. ThemeSnapshot.themes carries every registered ThemeDefinition in registration order, built-ins first, so the row's inject callback can return ctx.theme.getTheme().themes and the component can render one card per definition.",
+      "Ordering requirement: a card's setTheme call throws until the matching id is registered. Register the themes during apply before the row can be clicked, or guard the click with the current snapshot.themes ids.",
+      "Service injection: a client plugin that provides a theme row declares inject = ['slots', 'theme', 'locale'] (ui-layout/lib/client.js:589-594 is the same shape with shortcuts added). ctx.theme is the ThemeRuntime instance provided by the theme plugin (ui-theme/lib/client.js:2029), so register and setTheme are the real class methods for an installed client plugin.",
+      "reload flash: the Host index injection writes the durable built-in preference into head CSS and a body script before any plugin runs (ui-theme/lib/index.js:134-183, 204-214), so the first paint after reload is the built-in palette. A third-party theme can only repaint after its bundle loads.",
+      "Documentation cross-check inside the same installed package: README.md:66 states that --dsw-alias-state-business-primary resolves to #4176E6 in light and #7AAAFF in dark, which resolvedDefaults matches. README.md:53 states the menu group header fill is 94% opaque and dark menus use a 45% opaque fill, which matches #f8f9faf0 and #43454a73. README.md:74 documents switch-thumb and toast colors, which match. ui-theme/lib/index.js:134-135 defines the boot canvas colors #fff and #151517, which match resolvedDefaults of --dsw-alias-bg-base. These matches tie the published sheet to the installed behavior.",
+      "Residual risk to state plainly: the installed line 1413 could not be read past 2000 characters directly, so parity with the published sheet outside the verified prefix is inferred from the same package version, the seven fully matched sheets, and the documentation cross-checks. To remove the last doubt after install, read the live value in the Running app devtools: getComputedStyle(document.body).getPropertyValue('--dsw-alias-bg-base') returns #151517 in dark and #fff in light, and --dsw-alias-interactive-bg-hover returns #ffffff14 in dark.",
+      "Ambiguity: --dsw-alias-onboarding-accent is declared only in the light onboarding block, so the dark scheme inherits #3964fe. The dark entry in the inventory repeats the light value and marks it the same way. An override layer must still supply both members of the pair.",
+      "Ambiguity: descriptions for the 105 tokens that are not in BUILTIN_INSPECT_TOKENS are derived from the token name, the sheet block, and the package README, not from source comments. The 14 built-in inspect descriptions (ui-theme/lib/client.js:1531-1630) are copied verbatim."
+    ]
+  },
+  "settingsRowPattern": {
+    "slot": "settings.general.item",
+    "registrationExample": "// registered by ui-theme itself, ui-theme/lib/client.js:2046-2053\nctx.slots.inject(\"settings.general.item\", () => ctx.slots.register({\n  name: \"settings.general.item\",\n  id: \"h4x0r-theme-picker\",\n  order: 12,                       // Appearance is 10, font settings is 11\n  store,                           // defineStore handle, read through props.useStore\n  locale: SETTINGS_NS,             // locale namespace for props.t\n  inject: (actions) => {           // store actions are handed in here\n    bound = actions\n    sync(theme.getTheme())\n    return {\n      setTheme: (id) => { theme.setTheme(id) }\n    }\n  }\n}, ThemePickerRow), \"h4x0r: theme picker row\")\n// the row store mirrors the service snapshot (ui-theme/lib/client.js:1369-1381)\ndefineStore({\n  init: () => ({ preference: \"system\", revision: -1 }),\n  actions: { sync: (d, preference, revision) => {\n    if (revision <= d.revision) return\n    d.preference = preference\n    d.revision = revision\n  } }\n})\n// the plugin's only writer is its own theme/change listener (ui-theme/lib/client.js:2034-2045)\nctx.on(\"theme/change\", sync)",
+    "componentReceivesProps": "A registered row component receives the composed slot props: t (locale binder for the namespace named by the registration's locale field), useStore (selector hook over the store handle named by the registration's store field), and every key returned by the registration's inject callback (AppearanceRow gets setTheme). The type composition recorded in AppearanceRow.d.ts is PropsRuntime<'settings.general.item'> & PropsStore<store> & PropsLocale<namespace> & injected face, so the runtime share (renderSlot narrowed to declared children, renderFactorySlot, owner and standard kit) is also present. The built-in AppearanceRow destructures only { t, setTheme, useStore }, so a 6-card picker can follow the same three-prop surface.",
+    "appearanceRowCss": [
+      ".Iwzhua_group{border-bottom:.5px solid var(--dsw-alias-border-l2);flex-direction:column;gap:8px;padding:16px 0;display:flex}",
+      ".Iwzhua_title{color:var(--dsw-alias-label-primary);font-size:14px;font-weight:400;line-height:22px}",
+      ".Iwzhua_cubeRow{flex-wrap:wrap;align-items:stretch;gap:8px;display:flex}",
+      ".Iwzhua_themeCube{box-sizing:border-box;border:.5px solid var(--dsw-alias-border-l4);border-radius:var(--dsw-radius-xl);font:inherit;color:var(--dsw-alias-label-primary);cursor:pointer;background:0 0;flex-direction:column;flex:180px;justify-content:center;align-items:center;gap:4px;padding:20px 32px;font-size:14px;line-height:22px;display:flex}",
+      ".Iwzhua_themeCube:hover:not(.Iwzhua_selected){background:var(--dsw-alias-interactive-bg-hover)}",
+      ".Iwzhua_selected{background:var(--dsw-alias-bg-module-platform);border-color:var(--dsw-static-neutral-bluish-400)}"
+    ],
+    "appearanceRowCssPlainNames": [
+      ".themeGroup{border-bottom:.5px solid var(--dsw-alias-border-l2);flex-direction:column;gap:8px;padding:16px 0;display:flex}",
+      ".themeTitle{color:var(--dsw-alias-label-primary);font-size:14px;font-weight:400;line-height:22px}",
+      ".themeCubeRow{flex-wrap:wrap;align-items:stretch;gap:8px;display:flex}",
+      ".themeCube{box-sizing:border-box;border:.5px solid var(--dsw-alias-border-l4);border-radius:var(--dsw-radius-xl);font:inherit;color:var(--dsw-alias-label-primary);cursor:pointer;background:0 0;flex-direction:column;flex:180px;justify-content:center;align-items:center;gap:4px;padding:20px 32px;font-size:14px;line-height:22px;display:flex}",
+      ".themeCube:hover:not(.themeCubeSelected){background:var(--dsw-alias-interactive-bg-hover)}",
+      ".themeCubeSelected{background:var(--dsw-alias-bg-module-platform);border-color:var(--dsw-static-neutral-bluish-400)}"
+    ],
+    "renderedStructure": "<div class=\"<group>\">\n  <div class=\"<title>\">{t(\"appearance.title\")}</div>\n  <div class=\"<cubeRow>\">\n    {CUBES.map(({ id, labelKey, Icon }) => (\n      <button type=\"button\"\n              class={clsx(\"<themeCube>\", preference === id && \"<selected>\")}\n              aria-pressed={preference === id}\n              onClick={() => setTheme(id)}>\n        <Icon />\n        {t(labelKey)}\n      </button>\n    ))}\n  </div>\n</div>\nCUBES order and icons: light IconLightOutlineMedium, dark IconDarkOutlineMedium, system IconFollowsystemOutlineMedium (ui-theme/lib/client.js:53-69).",
+    "classNames": {
+      "group": "Iwzhua_group",
+      "title": "Iwzhua_title",
+      "cubeRow": "Iwzhua_cubeRow",
+      "themeCube": "Iwzhua_themeCube",
+      "selected": "Iwzhua_selected"
+    },
+    "evidence": [
+      "ui-theme/lib/client.js:27 (AppearanceRow.module.css source string)",
+      "ui-theme/lib/client.js:36-42 (class name map)",
+      "ui-theme/lib/client.js:75-95 (AppearanceRow JSX)",
+      "ui-theme/lib/client.js:2039-2053 (store sync, injected setTheme, slot registration with order 10)",
+      "ui-theme/lib/client.js:2054-2072 (second row in the same slot with order 11)",
+      "AppearanceRow.d.ts (published types): PropsRuntime & PropsStore & PropsLocale & AppearanceRowInjected"
+    ],
+    "notes": [
+      "The class names are CSS-module hashes generated from the source file path, so they differ between builds. The npm build of the same version renders _8HJdBW_group where the installed build renders Iwzhua_group. Any copied pattern must be re-hashed by the Lead's own bundle. Use the rules as raw material and rename the classes.",
+      "Flex sizing: .cubeRow is flex-wrap with gap 8px. .themeCube is flex:180px column, so six cards flow as three per row in the 800px settings panel and wrap cleanly. A 6-card row needs no grid.",
+      "Selection styling uses --dsw-alias-bg-module-platform for the selected fill and --dsw-static-neutral-bluish-400 for the selected border. A H4X0R picker can keep the same tokens, or use the theme's own accent token, so selection follows the active palette.",
+      "Row separators: .group has border-bottom .5px solid --dsw-alias-border-l2 with padding 16px 0. Registering at order 12 places the picker after the Appearance row and the font row, and the border keeps row rhythm.",
+      "The built-in row registers its own store and owns no DOM outside the row. It is mounted inside the settings General section, so it must not render its own panel chrome.",
+      "The locale namespace for the built-in row is settings.theme with keys appearance.title, appearance.light, appearance.dark, appearance.system (ui-theme/lib/client.js:1461-1517). A new row needs its own namespace and dictionary."
+    ]
+  },
+  "supplementary": {
+    "purpose": "Reference only, not override targets. The tokens array is the complete override-eligible set.",
+    "warning": "Do not pass any --dsw-static-* name to ctx.theme.register or ctx.theme.overrideTokens. The static palette is the raw color steps the alias tokens resolve through.",
+    "staticPaletteReference": {
+      "--dsw-static-amber-100": {
+        "light": "#fef5e7",
+        "dark": "#fef5e7"
+      },
+      "--dsw-static-amber-400": {
+        "light": "#f7ad31",
+        "dark": "#f7ad31"
+      },
+      "--dsw-static-amber-500": {
+        "light": "#f59e0b",
+        "dark": "#f59e0b"
+      },
+      "--dsw-static-amber-600": {
+        "light": "#dd8629",
+        "dark": "#dd8629"
+      },
+      "--dsw-static-amber-900": {
+        "light": "#27241f",
+        "dark": "#27241f"
+      },
+      "--dsw-static-blue-100": {
+        "light": "#dbeafe",
+        "dark": "#dbeafe"
+      },
+      "--dsw-static-blue-300": {
+        "light": "#93c5fd",
+        "dark": "#93c5fd"
+      },
+      "--dsw-static-blue-400": {
+        "light": "#60a5fa",
+        "dark": "#60a5fa"
+      },
+      "--dsw-static-blue-450": {
+        "light": "#4d93f8",
+        "dark": "#4d93f8"
+      },
+      "--dsw-static-blue-500": {
+        "light": "#3b82f6",
+        "dark": "#3b82f6"
+      },
+      "--dsw-static-blue-50": {
+        "light": "#eff6ff",
+        "dark": "#eff6ff"
+      },
+      "--dsw-static-blue-50p": {
+        "light": "#eaf3ff",
+        "dark": "#eaf3ff"
+      },
+      "--dsw-static-blue-600": {
+        "light": "#2563eb",
+        "dark": "#2563eb"
+      },
+      "--dsw-static-blue-75": {
+        "light": "#e5f0ff",
+        "dark": "#e5f0ff"
+      },
+      "--dsw-static-blue-800": {
+        "light": "#1e40af",
+        "dark": "#1e40af"
+      },
+      "--dsw-static-blue-900": {
+        "light": "#0e3074",
+        "dark": "#0e3074"
+      },
+      "--dsw-static-blue-950": {
+        "light": "#172554",
+        "dark": "#172554"
+      },
+      "--dsw-static-deepseek-100": {
+        "light": "#e4edfd",
+        "dark": "#e4edfd"
+      },
+      "--dsw-static-deepseek-200": {
+        "light": "#d3e2ff",
+        "dark": "#d3e2ff"
+      },
+      "--dsw-static-deepseek-300": {
+        "light": "#b7c8fe",
+        "dark": "#b7c8fe"
+      },
+      "--dsw-static-deepseek-400": {
+        "light": "#7aaaff",
+        "dark": "#7aaaff"
+      },
+      "--dsw-static-deepseek-450": {
+        "light": "#5686fe",
+        "dark": "#5686fe"
+      },
+      "--dsw-static-deepseek-500": {
+        "light": "#4176e6",
+        "dark": "#4176e6"
+      },
+      "--dsw-static-deepseek-50": {
+        "light": "#edf3fe",
+        "dark": "#edf3fe"
+      },
+      "--dsw-static-deepseek-600": {
+        "light": "#4868b2",
+        "dark": "#4868b2"
+      },
+      "--dsw-static-deepseek-700-delete": {
+        "light": "#2f4c8f",
+        "dark": "#2f4c8f"
+      },
+      "--dsw-static-deepseek-800": {
+        "light": "#34415b",
+        "dark": "#34415b"
+      },
+      "--dsw-static-deepseek-900": {
+        "light": "#283142",
+        "dark": "#283142"
+      },
+      "--dsw-static-green-100": {
+        "light": "#e6faed",
+        "dark": "#e6faed"
+      },
+      "--dsw-static-green-400": {
+        "light": "#4ed17e",
+        "dark": "#4ed17e"
+      },
+      "--dsw-static-green-500": {
+        "light": "#22c55e",
+        "dark": "#22c55e"
+      },
+      "--dsw-static-green-500-a08": {
+        "light": "#22c55e14",
+        "dark": "#22c55e14"
+      },
+      "--dsw-static-green-500-a12": {
+        "light": "#22c55e1f",
+        "dark": "#22c55e1f"
+      },
+      "--dsw-static-green-900": {
+        "light": "#233c2c",
+        "dark": "#233c2c"
+      },
+      "--dsw-static-neutral-00": {
+        "light": "#fff",
+        "dark": "#fff"
+      },
+      "--dsw-static-neutral-1000": {
+        "light": "#000",
+        "dark": "#000"
+      },
+      "--dsw-static-neutral-100": {
+        "light": "#f5f5f5",
+        "dark": "#f5f5f5"
+      },
+      "--dsw-static-neutral-150": {
+        "light": "#ededed",
+        "dark": "#ededed"
+      },
+      "--dsw-static-neutral-200": {
+        "light": "#e5e5e5",
+        "dark": "#e5e5e5"
+      },
+      "--dsw-static-neutral-250": {
+        "light": "#dcdcdc",
+        "dark": "#dcdcdc"
+      },
+      "--dsw-static-neutral-300": {
+        "light": "#d4d4d4",
+        "dark": "#d4d4d4"
+      },
+      "--dsw-static-neutral-400": {
+        "light": "#a2a4a6",
+        "dark": "#a2a4a6"
+      },
+      "--dsw-static-neutral-500": {
+        "light": "#7f8287",
+        "dark": "#7f8287"
+      },
+      "--dsw-static-neutral-50": {
+        "light": "#fafafa",
+        "dark": "#fafafa"
+      },
+      "--dsw-static-neutral-550": {
+        "light": "#65676b",
+        "dark": "#65676b"
+      },
+      "--dsw-static-neutral-600": {
+        "light": "#545557",
+        "dark": "#545557"
+      },
+      "--dsw-static-neutral-700": {
+        "light": "#3c3c3d",
+        "dark": "#3c3c3d"
+      },
+      "--dsw-static-neutral-800": {
+        "light": "#292929",
+        "dark": "#292929"
+      },
+      "--dsw-static-neutral-850": {
+        "light": "#212123",
+        "dark": "#212123"
+      },
+      "--dsw-static-neutral-900": {
+        "light": "#0f0f0f",
+        "dark": "#0f0f0f"
+      },
+      "--dsw-static-neutral-bluish-00": {
+        "light": "#fff",
+        "dark": "#fff"
+      },
+      "--dsw-static-neutral-bluish-1000": {
+        "light": "#0f1115",
+        "dark": "#0f1115"
+      },
+      "--dsw-static-neutral-bluish-100": {
+        "light": "#ebeef2",
+        "dark": "#ebeef2"
+      },
+      "--dsw-static-neutral-bluish-150": {
+        "light": "#e9ecf2",
+        "dark": "#e9ecf2"
+      },
+      "--dsw-static-neutral-bluish-200": {
+        "light": "#e1e5ee",
+        "dark": "#e1e5ee"
+      },
+      "--dsw-static-neutral-bluish-300": {
+        "light": "#cfd3d6",
+        "dark": "#cfd3d6"
+      },
+      "--dsw-static-neutral-bluish-400": {
+        "light": "#adb2b8",
+        "dark": "#adb2b8"
+      },
+      "--dsw-static-neutral-bluish-500": {
+        "light": "#979da6",
+        "dark": "#979da6"
+      },
+      "--dsw-static-neutral-bluish-50": {
+        "light": "#f9fafb",
+        "dark": "#f9fafb"
+      },
+      "--dsw-static-neutral-bluish-600": {
+        "light": "#81858c",
+        "dark": "#81858c"
+      },
+      "--dsw-static-neutral-bluish-60": {
+        "light": "#f5f6f7",
+        "dark": "#f9fafb"
+      },
+      "--dsw-static-neutral-bluish-700": {
+        "light": "#61666b",
+        "dark": "#61666b"
+      },
+      "--dsw-static-neutral-bluish-750": {
+        "light": "#43454a",
+        "dark": "#43454a"
+      },
+      "--dsw-static-neutral-bluish-75": {
+        "light": "#f1f3f5",
+        "dark": "#f1f3f5"
+      },
+      "--dsw-static-neutral-bluish-800": {
+        "light": "#353638",
+        "dark": "#353638"
+      },
+      "--dsw-static-neutral-bluish-850": {
+        "light": "#2c2c2e",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-static-neutral-bluish-875": {
+        "light": "#232324",
+        "dark": "#232324"
+      },
+      "--dsw-static-neutral-bluish-900": {
+        "light": "#1b1b1c",
+        "dark": "#1b1b1c"
+      },
+      "--dsw-static-neutral-bluish-950": {
+        "light": "#151517",
+        "dark": "#151517"
+      },
+      "--dsw-static-red-100": {
+        "light": "#fee2e2",
+        "dark": "#fee2e2"
+      },
+      "--dsw-static-red-400": {
+        "light": "#f25a5a",
+        "dark": "#f25a5a"
+      },
+      "--dsw-static-red-400-a12": {
+        "light": "#f25a5a1f",
+        "dark": "#f25a5a1f"
+      },
+      "--dsw-static-red-500": {
+        "light": "#ef4444",
+        "dark": "#ef4444"
+      },
+      "--dsw-static-red-50": {
+        "light": "#fef2f2",
+        "dark": "#fef2f2"
+      },
+      "--dsw-static-red-600": {
+        "light": "#ec1313",
+        "dark": "#ec1313"
+      },
+      "--dsw-static-red-600-a08": {
+        "light": "#ec131314",
+        "dark": "#ec131314"
+      },
+      "--dsw-static-red-900": {
+        "light": "#570c0c",
+        "dark": "#570c0c"
+      }
+    },
+    "resolvedDefaults": {
+      "--dsw-alias-bg-base": {
+        "light": "#fff",
+        "dark": "#151517"
+      },
+      "--dsw-alias-bg-document-preview": {
+        "light": "#ebeef2",
+        "dark": "#151517"
+      },
+      "--dsw-alias-label-document-preview": {
+        "light": "#61666b",
+        "dark": "#cfd3d6"
+      },
+      "--dsw-alias-bg-layer-1": {
+        "light": "#fff",
+        "dark": "#232324"
+      },
+      "--dsw-alias-bg-layer-2": {
+        "light": "#fff",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-bg-layer-3": {
+        "light": "#fff",
+        "dark": "#353638"
+      },
+      "--dsw-alias-bg-mask-1": {
+        "light": "#0000003d",
+        "dark": "#00000080"
+      },
+      "--dsw-alias-bg-mask-2": {
+        "light": "#0000001f",
+        "dark": "#0003"
+      },
+      "--dsw-alias-bg-mask-3": {
+        "light": "#0000007a",
+        "dark": "#0000007a"
+      },
+      "--dsw-alias-bg-mask-photo": {
+        "light": "#000000e0",
+        "dark": "#000000e0"
+      },
+      "--dsw-alias-bg-mask-drop": {
+        "light": "#ffffffb3",
+        "dark": "#272730b3"
+      },
+      "--dsw-alias-bg-module-platform": {
+        "light": "#f5f6f7",
+        "dark": "#353638"
+      },
+      "--dsw-alias-bg-multi-select": {
+        "light": "#f5f6f7",
+        "dark": "#212123"
+      },
+      "--dsw-alias-bg-overlay": {
+        "light": "#e9ecf2",
+        "dark": "#61666b"
+      },
+      "--dsw-alias-bg-skeleton": {
+        "light": "#0000000a",
+        "dark": "#ffffff14"
+      },
+      "--dsw-alias-border-inverted2": {
+        "light": "#0000",
+        "dark": "#ffffff14"
+      },
+      "--dsw-alias-border-inverted": {
+        "light": "#0000",
+        "dark": "#ffffff0f"
+      },
+      "--dsw-alias-border-l1": {
+        "light": "#0000000a",
+        "dark": "#ffffff0f"
+      },
+      "--dsw-alias-border-l2-darkmode-thin": {
+        "light": "#0000001a",
+        "dark": "#ffffff0f"
+      },
+      "--dsw-alias-border-l2": {
+        "light": "#0000001a",
+        "dark": "#ffffff1f"
+      },
+      "--dsw-alias-border-l3": {
+        "light": "#0000001f",
+        "dark": "#ffffff29"
+      },
+      "--dsw-alias-border-l4": {
+        "light": "#00000029",
+        "dark": "#fff3"
+      },
+      "--dsw-alias-brand-primary-invert": {
+        "light": "#0f1115",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-brand-primary-new-colorprimary-new-color": {
+        "light": "#4176e6",
+        "dark": "#5686fe"
+      },
+      "--dsw-alias-brand-primary": {
+        "light": "#0f1115",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-brand-text": {
+        "light": "#0f1115",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-button-contrast-fill": {
+        "light": "#61666b",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-button-elevated-fill": {
+        "light": "#fff",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-button-floating-fill": {
+        "light": "#fff",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-button-floating-hover": {
+        "light": "#f1f3f5",
+        "dark": "#353638"
+      },
+      "--dsw-alias-button-ghost-active-border": {
+        "light": "#979da6",
+        "dark": "#81858c"
+      },
+      "--dsw-alias-button-ghost-active-fill": {
+        "light": "#ebeef2",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-button-ghost-active-hover": {
+        "light": "#e9ecf2",
+        "dark": "#61666b"
+      },
+      "--dsw-alias-button-info-fill": {
+        "light": "#4176e6",
+        "dark": "#7aaaff"
+      },
+      "--dsw-alias-button-info-hover": {
+        "light": "#7aaaff",
+        "dark": "#4176e6"
+      },
+      "--dsw-alias-button-primary-dimmed": {
+        "light": "#ebeef2",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-button-primary-fill": {
+        "light": "#0f1115",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-button-primary-hover": {
+        "light": "#43454a",
+        "dark": "#ebeef2"
+      },
+      "--dsw-alias-button-tool-bar-fill-invisible": {
+        "light": "#1f1f1f5c",
+        "dark": "#1f1f1f5c"
+      },
+      "--dsw-alias-button-tool-bar-fill": {
+        "light": "#54555780",
+        "dark": "#54555780"
+      },
+      "--dsw-alias-button-tool-bar-hover": {
+        "light": "#54555799",
+        "dark": "#54555799"
+      },
+      "--dsw-alias-interactive-bg-active": {
+        "light": "#2631481a",
+        "dark": "#ffffff24"
+      },
+      "--dsw-alias-interactive-bg-hover-accent": {
+        "light": "#26314824",
+        "dark": "#ffffff3d"
+      },
+      "--dsw-alias-interactive-bg-hover-danger": {
+        "light": "#ec13130d",
+        "dark": "#f25a5a26"
+      },
+      "--dsw-alias-interactive-bg-hover-solid": {
+        "light": "#f1f3f5",
+        "dark": "#353638"
+      },
+      "--dsw-alias-interactive-bg-hover": {
+        "light": "#2631480f",
+        "dark": "#ffffff14"
+      },
+      "--dsw-alias-label-caption": {
+        "light": "#adb2b8",
+        "dark": "#81858c"
+      },
+      "--dsw-alias-label-dimmed": {
+        "light": "#e1e5ee",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-label-primary-bluish": {
+        "light": "#0e3074",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-label-primary-dimmed": {
+        "light": "#151517",
+        "dark": "#ebeef2"
+      },
+      "--dsw-alias-label-primary-foreground": {
+        "light": "#fff",
+        "dark": "#0f1115"
+      },
+      "--dsw-alias-label-primary-inverted": {
+        "light": "#fff",
+        "dark": "#353638"
+      },
+      "--dsw-alias-label-primary": {
+        "light": "#0f1115",
+        "dark": "#f9fafb"
+      },
+      "--dsw-alias-label-secondary": {
+        "light": "#61666b",
+        "dark": "#cfd3d6"
+      },
+      "--dsw-alias-label-tertiary": {
+        "light": "#81858c",
+        "dark": "#adb2b8"
+      },
+      "--dsw-alias-menu-icon": {
+        "light": "#353638",
+        "dark": "#ebeef2"
+      },
+      "--dsw-alias-link": {
+        "light": "#4176e6",
+        "dark": "#7aaaff"
+      },
+      "--dsw-alias-markdown-citation": {
+        "light": "#ebeef2",
+        "dark": "#353638"
+      },
+      "--dsw-alias-markdown-code-block-banner": {
+        "light": "#f9fafb",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-markdown-code-block": {
+        "light": "#f9fafb",
+        "dark": "#1b1b1c"
+      },
+      "--dsw-alias-markdown-code-segment-selected": {
+        "light": "#fff",
+        "dark": "#353638"
+      },
+      "--dsw-alias-markdown-code-segment-unselected": {
+        "light": "#f1f3f5",
+        "dark": "#1b1b1c"
+      },
+      "--dsw-alias-markdown-inline-code": {
+        "light": "#fafafa",
+        "dark": "#292929"
+      },
+      "--dsw-alias-markdown-placeholder": {
+        "light": "#f5f6f7",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-markdown-tag": {
+        "light": "#f1f3f5",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-scrollbar-bg-l1": {
+        "light": "#e5e5e5",
+        "dark": "#3c3c3d"
+      },
+      "--dsw-alias-scrollbar-bg-l2": {
+        "light": "#e5e5e5",
+        "dark": "#545557"
+      },
+      "--dsw-alias-scrollbar-hover-l1": {
+        "light": "#d4d4d4",
+        "dark": "#545557"
+      },
+      "--dsw-alias-scrollbar-hover-l2": {
+        "light": "#d4d4d4",
+        "dark": "#65676b"
+      },
+      "--dsw-alias-state-business-primary": {
+        "light": "#4176e6",
+        "dark": "#7aaaff"
+      },
+      "--dsw-alias-state-business-tertiary": {
+        "light": "#e4edfd",
+        "dark": "#34415b"
+      },
+      "--dsw-alias-code-diff-added": {
+        "light": "#22c55e14",
+        "dark": "#22c55e1f"
+      },
+      "--dsw-alias-code-diff-deleted": {
+        "light": "#ec131314",
+        "dark": "#f25a5a1f"
+      },
+      "--dsw-alias-file-diff-added-bg": {
+        "light": "#e6f4e7",
+        "dark": "#1f3124"
+      },
+      "--dsw-alias-file-diff-added-gutter": {
+        "light": "#edf7ed",
+        "dark": "#132016"
+      },
+      "--dsw-alias-file-diff-added-marker": {
+        "light": "#01a241",
+        "dark": "#41c977"
+      },
+      "--dsw-alias-file-diff-deleted-bg": {
+        "light": "#fce6e2",
+        "dark": "#3c1f1b"
+      },
+      "--dsw-alias-file-diff-deleted-gutter": {
+        "light": "#fdece9",
+        "dark": "#28130e"
+      },
+      "--dsw-alias-file-diff-deleted-marker": {
+        "light": "#ba2723",
+        "dark": "#fa423e"
+      },
+      "--dsw-alias-state-error-primary": {
+        "light": "#ec1313",
+        "dark": "#f25a5a"
+      },
+      "--dsw-alias-state-error-secondary": {
+        "light": "#f25a5a",
+        "dark": "#f25a5a"
+      },
+      "--dsw-alias-state-idle-primary": {
+        "light": "#d4d4d4",
+        "dark": "#545557"
+      },
+      "--dsw-alias-state-success-primary": {
+        "light": "#22c55e",
+        "dark": "#22c55e"
+      },
+      "--dsw-alias-state-success-secondary": {
+        "light": "#4ed17e",
+        "dark": "#4ed17e"
+      },
+      "--dsw-alias-state-success-tertiary": {
+        "light": "#e6faed",
+        "dark": "#233c2c"
+      },
+      "--dsw-alias-state-warn-label": {
+        "light": "#dd8629",
+        "dark": "#dd8629"
+      },
+      "--dsw-alias-state-warn-primary": {
+        "light": "#f59e0b",
+        "dark": "#f59e0b"
+      },
+      "--dsw-alias-state-warn-secondary": {
+        "light": "#f7ad31",
+        "dark": "#f7ad31"
+      },
+      "--dsw-alias-state-warn-tertiary": {
+        "light": "#fef5e7",
+        "dark": "#27241f"
+      },
+      "--dsw-alias-switch-thumb": {
+        "light": "#fff",
+        "dark": "#adb2b8"
+      },
+      "--dsw-alias-toast-bg": {
+        "light": "#353638",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-toast-label": {
+        "light": "#fff",
+        "dark": "#fff"
+      },
+      "--dsw-alias-tooltip-bg": {
+        "light": "#2c2c2e",
+        "dark": "#43454a"
+      },
+      "--dsw-alias-turn-trigger-bg": {
+        "light": "#f9fafb",
+        "dark": "#ffffff14"
+      },
+      "--dsw-alias-turn-trigger-bg-hover": {
+        "light": "#2631480f",
+        "dark": "#ffffff24"
+      },
+      "--dsw-specific-bubble-highlight": {
+        "light": "#d3e2ff",
+        "dark": "#43454a"
+      },
+      "--dsw-specific-bubble": {
+        "light": "#edf3fe",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-specific-input-major": {
+        "light": "#fff",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-specific-login-input": {
+        "light": "#f9fafb",
+        "dark": "#1b1b1c"
+      },
+      "--dsw-menu-surface-fill": {
+        "light": "#f8f9fa94",
+        "dark": "#43454a73"
+      },
+      "--dsw-alias-menu-group-header-fill": {
+        "light": "#f8f9faf0",
+        "dark": "#303136f0"
+      },
+      "--dsw-specific-menu": {
+        "light": "#f8f9fa94",
+        "dark": "#43454a73"
+      },
+      "--dsw-specific-selector": {
+        "light": "#f5f6f7",
+        "dark": "#353638"
+      },
+      "--dsw-specific-sidebar-fill": {
+        "light": "#f9fafb",
+        "dark": "#1b1b1c"
+      },
+      "--dsw-specific-sidebar-nav-item-active-accent": {
+        "light": "#e4edfd",
+        "dark": "#353638"
+      },
+      "--dsw-specific-sidebar-nav-item-active": {
+        "light": "#ebeef2",
+        "dark": "#43454a"
+      },
+      "--dsw-specific-sidebar-nav-item-hover": {
+        "light": "#f1f3f5",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-specific-tip": {
+        "light": "#f5f6f7",
+        "dark": "#353638"
+      },
+      "--dsw-alias-settings-card-fill": {
+        "light": "#fff",
+        "dark": "#2c2c2e"
+      },
+      "--dsw-alias-settings-card-stroke": {
+        "light": "#00000029",
+        "dark": "#fff3"
+      },
+      "--dsw-alias-onboarding-accent": {
+        "light": "#3964fe",
+        "dark": "#3964fe"
+      },
+      "--dsw-alias-onboarding-secondary-fill": {
+        "light": "#fff",
+        "dark": "#48494c"
+      }
+    },
+    "resolvedDefaultsNote": "Literal per-scheme results for every token whose value resolves through static steps or other alias tokens. The 7 color-mix() tokens are absent here, their literal expression from the tokens array works as-is in Chromium."
+  },
+  "researchMetadata": {
+    "harnessVersion": "0.2.1-rc.3",
+    "installedBundle": "C:\\Users\\jeffk\\AppData\\Local\\Programs\\DeepSeek Harness\\resources\\app.asar\\dsh\\node_modules\\@deepseek-ai\\dsh-client-ui-theme\\lib\\client.js",
+    "sheetLineNumbers": {
+      "base.css": 1407,
+      "corner-shape.css": 1410,
+      "design-platform.css": 1413,
+      "focus.css": 1416,
+      "onboarding.css": 1419,
+      "scrollbar.css": 1422,
+      "gradient-shadow-text.css": 1425,
+      "shiki.css": 1428,
+      "stylesList": "1431-1441"
+    },
+    "tokenCount": 119,
+    "designPlatformTokenCount": 113,
+    "aliasBlockBoundaries": "design-platform.css rules 2 and 3 are body and body[data-ds-dark-theme], each with the same 113 declarations",
+    "sheetEqualityChecks": [
+      "body{--dsw-static-amber-100:#fef5e7;",
+      "--dsw-static-deepseek-700-delete:#2f4c8f;",
+      "--dsw-static-neutral-00:#fff;--dsw-static-ne",
+      "--dsw-static-neutral-bluish-100:#ebeef2;",
+      "--dsw-static-neutral-bluish-400:#adb2b8;--ds"
+    ],
+    "publishedSource": "npm @deepseek-ai/dsh-client-ui-theme@0.2.1-rc.3 lib/client.js (unpkg), full sheet text 19081 chars"
+  }
+}

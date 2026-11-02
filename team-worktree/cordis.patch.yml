@@ -1,0 +1,8 @@
+# Team Worktree: the shipped worktree runtime + one Lead-scoped spawn tool.
+#
+# Compatible with DSH 0.2.x. Nothing in the profile is overwritten.
+- insert:
+    - id: worktrees
+      name: '@deepseek-ai/dsh-experimental-worktree'
+    - id: team-worktree
+      name: 'dsh-plugin-team-worktree'

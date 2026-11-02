@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Browser Verification",
+    "description": "Connects a local Chrome MCP server so agents can snapshot, screenshot, click through, and read console errors from the running Web GUI or any page."
+  }
+}

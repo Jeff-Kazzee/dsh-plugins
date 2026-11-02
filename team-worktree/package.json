@@ -1,0 +1,26 @@
+{
+  "name": "dsh-plugin-team-worktree",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Worktree-per-teammate isolation for DeepSeek Harness Agent Teams: spawn a teammate into its own Git worktree, restore the Lead directory atomically, and merge through a review gate.",
+  "license": "MIT",
+  "author": "Jeff Kazzee",
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "agent-teams", "worktree", "git", "parallel-agents", "multi-agent"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Kazzee/dsh-plugins.git",
+    "directory": "team-worktree"
+  },
+  "homepage": "https://github.com/Jeff-Kazzee/dsh-plugins/tree/main/team-worktree",
+  "bugs": { "url": "https://github.com/Jeff-Kazzee/dsh-plugins/issues" },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "engines": { "dsh": ">=0.2.1-rc.5 <0.3.0" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

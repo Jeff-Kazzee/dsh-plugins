@@ -1,0 +1,5 @@
+# H4X0R theme pack bundle: one row. The Host half is inert. The Client half
+# registers the six palettes and the Themes settings row.
+- insert:
+    - id: h4x0r-themes
+      name: '@local/h4x0r-themes'

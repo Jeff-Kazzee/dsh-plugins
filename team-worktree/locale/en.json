@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Team Worktree",
+    "description": "Spawns a teammate into an isolated Git worktree checkout and restores the Lead directory, so parallel teammates cannot collide in one working tree."
+  }
+}

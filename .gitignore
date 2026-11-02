@@ -1,0 +1,15 @@
+# private lab records are not published
+plugin-lab/RECEIPTS.md
+plugin-lab/ACCEPTANCE/
+
+# browser-verify runtime artifacts
+browser-verify/server/node_modules/
+browser-verify/server/*.png
+browser-verify/server/loader.html
+browser-verify/server/package-lock.json
+
+# general
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

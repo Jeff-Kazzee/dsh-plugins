@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Advisor Models",
+    "description": "Consult other models as single-turn advisors with a chosen model, reasoning effort, system prompt, and purpose."
+  }
+}

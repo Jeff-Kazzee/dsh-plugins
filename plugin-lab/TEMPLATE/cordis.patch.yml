@@ -1,0 +1,5 @@
+# Starter row. Copy this whole directory, then rename the package name in
+# package.json and the row id and name here. Keep one row per plugin.
+- insert:
+    - id: lab-example
+      name: 'dsh-plugin-lab-example'

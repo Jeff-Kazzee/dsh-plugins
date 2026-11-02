@@ -1,0 +1,47 @@
+# Advisor Models bundle: one Host row.
+#
+# To change the roster after installation, add an override row to
+# ~/.dsh/profiles/desktop/cordis.patch.yml with the same id and a complete
+# config block (a matching override replaces the whole config), for example:
+#
+# - id: advisor
+#   name: '@local/advisor-models'
+#   config:
+#     defaultAdvisor: reviewer
+#     advisors:
+#       reviewer:
+#         provider: deepseek-account
+#         model: deepseek-flash
+#         reasoningEffort: max
+#         purpose: Find the strongest objection to this plan.
+- insert:
+    - id: advisor
+      name: '@local/advisor-models'
+      config:
+        defaultAdvisor: reviewer
+        maxAdvisors: 3
+        maxTokens: 8192
+        timeoutMs: 180000
+        advisors:
+          reviewer:
+            provider: deepseek-account
+            model: deepseek-flash
+            reasoningEffort: max
+            purpose: >-
+              Find the strongest objection to the plan, claim, or decision you
+              are given. Name the biggest risk, the assumption most likely to
+              be wrong, and the cheapest test that would expose it. Do not
+              rewrite the whole plan.
+          architect:
+            provider: deepseek-account
+            model: deepseek-flash
+            reasoningEffort: max
+            purpose: >-
+              Reason about design and architecture tradeoffs. Recommend one
+              direction, name the alternatives and why they lost, and state
+              what constraint would change the recommendation.
+          quick:
+            provider: deepseek-account
+            model: deepseek-flash
+            reasoningEffort: low
+            purpose: Give a short, direct second opinion. Lead with the answer, then at most a few bullets of reasoning.

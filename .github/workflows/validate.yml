@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Syntax check plugin host code
+        run: |
+          node --check browser-verify/index.js
+          node --check team-worktree/index.js
+      - name: Validate market index shape
+        run: node scripts/generate-index.mjs --check
+      - name: Check package manifests
+        run: |
+          node -e "for (const d of ['browser-verify','team-worktree']) { const p = require('./' + d + '/package.json'); if (!p.name || !p.version || !p.dsh?.bundle?.patch) { throw new Error(d + ': manifest incomplete') } }"
