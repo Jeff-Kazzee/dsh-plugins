@@ -19,6 +19,8 @@ jobs:
           node --check team-worktree/index.js
       - name: Validate market index shape
         run: node scripts/generate-index.mjs --check
+      - name: Repo hygiene (no secrets or personal paths in tracked files)
+        run: node scripts/check-repo.mjs
       - name: Check package manifests
         run: |
           node -e "for (const d of ['browser-verify','team-worktree']) { const p = require('./' + d + '/package.json'); if (!p.name || !p.version || !p.dsh?.bundle?.patch) { throw new Error(d + ': manifest incomplete') } }"
