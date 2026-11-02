@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Jeff Kazzee DSH Plugins"
+  },
+  "description": {
+    "en": "Browser verification and worktree-isolated Agent Teams for DeepSeek Harness."
+  },
+  "metadata": {
+    "categories": {
+      "agents": {
+        "title": {
+          "en": "Agents"
+        }
+      },
+      "developer-tools": {
+        "title": {
+          "en": "Developer tools"
+        }
+      }
+    },
+    "labels": {
+      "agent-teams": {
+        "title": {
+          "en": "Agent Teams"
+        }
+      },
+      "browser": {
+        "title": {
+          "en": "Browser"
+        }
+      },
+      "git": {
+        "title": {
+          "en": "Git"
+        }
+      },
+      "verification": {
+        "title": {
+          "en": "Verification"
+        }
+      }
+    },
+    "sortKeys": {
+      "order": {
+        "title": {
+          "en": "Recommended order"
+        },
+        "order": "asc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-browser-verify",
+      "title": {
+        "en": "dsh-plugin-browser-verify"
+      },
+      "description": {
+        "en": "Browser verification for DeepSeek Harness: the agent sees and drives the real Web GUI through a headless chrome-devtools MCP server, with a one-shot login handoff for the Desktop surface."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNiIgeT0iMTAiIHdpZHRoPSI1MiIgaGVpZ2h0PSI0NCIgcng9IjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHBhdGggZD0iTTYgMjJoNTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPGNpcmNsZSBjeD0iMTUiIGN5PSIxNiIgcj0iMi41IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPGNpcmNsZSBjeD0iMjMiIGN5PSIxNiIgcj0iMi41IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPGNpcmNsZSBjeD0iMzEiIGN5PSIxNiIgcj0iMi41IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzOCIgcj0iMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzOCIgcj0iMyIgZmlsbD0iIzI0N2JiZiIvPgogIDxwYXRoIGQ9Ik0zOSA0NWw3IDciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+      "author": "Jeff Kazzee",
+      "homepage": "https://github.com/Jeff-Kazzee/dsh-plugins/tree/main/browser-verify",
+      "repository": {
+        "url": "https://github.com/Jeff-Kazzee/dsh-plugins",
+        "directory": "browser-verify"
+      },
+      "metadata": {
+        "category": "developer-tools",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "browser",
+          "mcp",
+          "chrome-devtools",
+          "agent-tools",
+          "ui-verification"
+        ],
+        "labels": [
+          "browser",
+          "verification"
+        ],
+        "sortKeys": {
+          "order": 2
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793631963,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Jeff-Kazzee/dsh-plugins",
+            "commit": "2c443a867806b30382f2bafc851c53b30abbc7d2",
+            "path": "browser-verify"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-team-worktree",
+      "title": {
+        "en": "dsh-plugin-team-worktree"
+      },
+      "description": {
+        "en": "Worktree-per-teammate isolation for DeepSeek Harness Agent Teams: spawn a teammate into its own Git worktree, restore the Lead directory atomically, and merge through a review gate."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHBhdGggZD0iTTMyIDh2MTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjQ2IiByPSI4IiBmaWxsPSJub25lIiBzdHJva2U9IiMyNDdiYmYiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNDYiIHI9IjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPGNpcmNsZSBjeD0iNDgiIGN5PSI0NiIgcj0iOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjQ3YmJmIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8cGF0aCBkPSJNMzIgMjZjLTggMC0xNiA2LTE2IDEyTTMyIDI2YzggMCAxNiA2IDE2IDEyIiBmaWxsPSJub25lIiBzdHJva2U9IiMyNDdiYmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=",
+      "author": "Jeff Kazzee",
+      "homepage": "https://github.com/Jeff-Kazzee/dsh-plugins/tree/main/team-worktree",
+      "repository": {
+        "url": "https://github.com/Jeff-Kazzee/dsh-plugins",
+        "directory": "team-worktree"
+      },
+      "metadata": {
+        "category": "agents",
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "agent-teams",
+          "worktree",
+          "git",
+          "parallel-agents",
+          "multi-agent"
+        ],
+        "labels": [
+          "agent-teams",
+          "git"
+        ],
+        "sortKeys": {
+          "order": 1
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793631963,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Jeff-Kazzee/dsh-plugins",
+            "commit": "2c443a867806b30382f2bafc851c53b30abbc7d2",
+            "path": "team-worktree"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
